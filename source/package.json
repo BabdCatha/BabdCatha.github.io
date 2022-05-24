@@ -8,7 +8,7 @@
     "url": "https://github.com/BabdCatha/BabdCatha.github.io.git"
   },
   "scripts": {
-    "build": "rimraf ../docs && react-scripts build",
+    "build": "rimraf ./build && react-scripts build",
     "predeploy": "rm -rf ../docs && react-scripts build && mv build ../docs",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
