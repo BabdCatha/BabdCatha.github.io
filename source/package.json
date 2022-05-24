@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/BabdCatha/BabdCatha.github.io.git"
   },
   "scripts": {
     "build": "rimraf ../docs && react-scripts build",
