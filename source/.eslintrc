@@ -1,6 +1,17 @@
 {
   "extends": "airbnb",
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "requireConfigFile": false,
+    "sourceType": "module",
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+   },
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "env": {
     "browser": true,
     "node": true,
@@ -21,6 +32,9 @@
     }],
     "no-underscore-dangle": 0,
     "react/destructuring-assignment": 0,
+    "react/function-component-definition": [0,{
+        "namedComponents": "function-declaration"
+    }],
     "react/jsx-filename-extension": [1, {
       "extensions": [".js", ".jsx"]
     }],

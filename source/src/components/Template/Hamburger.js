@@ -23,7 +23,7 @@ const Hamburger = () => {
           )}
         </ul>
       </nav>
-      <Suspense fallback={<></>}>
+      <Suspense fallback={null}>
         <Menu right isOpen={open}>
           <ul className="hamburger-ul">
             {routes.map((l) => (
