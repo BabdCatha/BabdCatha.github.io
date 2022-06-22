@@ -17,7 +17,7 @@ const count = markdown.split(/\s+/)
 const About = () => (
   <Main
     title="About"
-    description="Learn about Michael D'Angelo"
+    description="Learn about me"
   >
     <article className="post markdown" id="about">
       <header>
