@@ -1,15 +1,21 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'Lycée François Couperin, Fontainebleau',
+    degree: 'Baccalauréat Scientifique, specialty in Computer sciences',
+    link: 'https://www.francoiscouperin.fr/',
+    year: '2015 - 2018',
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Lycée Fénelon, Paris VI',
+    degree: 'Preparatory class for the Grandes Écoles, MPSI then MP*',
+    link: 'https://pia.ac-paris.fr/serail/jcms/s2_1470075/fr/accueil',
+    year: '2018-2020',
+  },
+  {
+    school: 'École Nationale Supérieure des Mines de Saint-Étienne, ISMIN',
+    degree: 'Engineering degree specialized in Microelectronics and Computer Sciences',
+    link: 'https://www.mines-stetienne.fr/',
+    year: '2020-2023',
   },
 ];
 
