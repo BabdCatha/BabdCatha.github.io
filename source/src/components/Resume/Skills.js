@@ -8,7 +8,7 @@ const handleProps = ({ categories, skills }) => ({
   buttons: categories.map((cat) => cat.name).reduce((obj, key) => ({
     ...obj,
     [key]: false,
-  }), { All: true }),
+  }), { Linguistics: true }),
   skills,
 });
 
@@ -22,7 +22,7 @@ class Skills extends Component {
     // search for true active categories
     const actCat = Object.keys(this.state.buttons).reduce((cat, key) => (
       this.state.buttons[key] ? key : cat
-    ), 'All');
+    ), 'Linguistics');
 
     return this.state.skills.sort((a, b) => {
       let ret = 0;
@@ -33,7 +33,7 @@ class Skills extends Component {
       else if (a.title > b.title) ret = 1;
       else if (a.title < b.title) ret = -1;
       return ret;
-    }).filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
+    }).filter((skill) => (skill.category.includes(actCat)))
       .map((skill) => (
         <SkillBar
           categories={this.props.categories}
@@ -59,10 +59,8 @@ class Skills extends Component {
       // Toggle button that was clicked. Turn all other buttons off.
       const buttons = Object.keys(prevState.buttons).reduce((obj, key) => ({
         ...obj,
-        [key]: (label === key) && !prevState.buttons[key],
+        [key]: (label === key),
       }), {});
-      // Turn on 'All' button if other buttons are off
-      buttons.All = !Object.keys(prevState.buttons).some((key) => buttons[key]);
       return { buttons };
     });
   };
@@ -74,7 +72,7 @@ class Skills extends Component {
         <div className="title">
           <h3>Skills</h3>
           <p>Note: I think these sections are silly, but everyone seems to have one.
-            Here is a *mostly* honest overview of my skills.
+            Here is a *probably* honest overview of my skills.
           </p>
         </div>
         <div className="skill-button-container">

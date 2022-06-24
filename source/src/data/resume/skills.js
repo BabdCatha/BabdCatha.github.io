@@ -2,24 +2,75 @@
 // Data Engineering, Data Science, ML Engineering, ... ?
 
 const skills = [
+
+  // Programming languages
+
   {
     title: 'Javascript',
     competency: 'Beginner',
     fillRatio: 2,
-    category: ['Web Development', 'Languages'],
+    category: ['Web Development', 'Programming languages'],
   },
   {
     title: 'C/C++',
     competency: 'Advanced',
     fillRatio: 5,
-    category: ['Languages'],
+    category: ['Programming languages'],
+  },
+  {
+    title: 'Python',
+    competency: 'Advanced',
+    fillRatio: 5,
+    category: ['Programming languages'],
   },
   {
     title: 'CUDA',
     competency: 'Beginner',
     fillRatio: 3,
-    category: ['Languages'],
+    category: ['Programming languages'],
   },
+  {
+    title: 'Java for Android',
+    competency: 'Capable',
+    fillRatio: 4,
+    category: ['Programming languages'],
+  },
+
+  // Languages spoken
+
+  {
+    title: 'French',
+    competency: 'Mother tongue',
+    fillRatio: 5,
+    category: ['Linguistics'],
+  },
+  {
+    title: 'English',
+    competency: 'C1, 990 on the TOEIC',
+    fillRatio: 5,
+    category: ['Linguistics'],
+  },
+  {
+    title: 'German',
+    competency: 'B1, but not spoken in a long time',
+    fillRatio: 3,
+    category: ['Linguistics'],
+  },
+  {
+    title: 'Russian',
+    competency: 'Between A2 and B1',
+    fillRatio: 3,
+    category: ['Linguistics'],
+  },
+  {
+    title: 'Mandarin chinese',
+    competency: 'Beginner',
+    fillRatio: 1,
+    category: ['Linguistics'],
+  },
+
+  // Microcontrollers
+
   {
     title: 'STM32 development',
     competency: 'Capable',
@@ -30,13 +81,7 @@ const skills = [
     title: '8051 assembly',
     competency: 'Beginner',
     fillRatio: 3,
-    category: ['Languages', 'Microcontrollers'],
-  },
-  {
-    title: 'Java for Android',
-    competency: 'Capable',
-    fillRatio: 4,
-    category: ['Languages'],
+    category: ['Programming languages', 'Microcontrollers'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
