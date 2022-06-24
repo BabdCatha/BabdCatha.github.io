@@ -18,12 +18,16 @@ const Projects = () => (
           <p>A selection of projects that I&apos;m not too ashamed of</p>
         </div>
       </header>
-      {data.map((project) => (
-        <Cell
-          data={project}
-          key={project.title}
-        />
-      ))}
+      <div className="row">
+        {data.map((project) => (
+          <div className="col-4 col-6-medium col-12-small">
+            <Cell
+              data={project}
+              key={project.title}
+            />
+          </div>
+        ))}
+      </div>
     </article>
   </Main>
 );
