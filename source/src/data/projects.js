@@ -1,38 +1,22 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Lorem',
-    subtitle: 'Ipsum',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Hitori - 一人で',
+    subtitle: '一人で',
+    image: '/images/projects/hitori.jpg',
+    date: '2022-01-01',
     link: 'https://tartempion.engineer',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Hands free cooking assistant.',
   },
   {
-    title: 'Lorem',
-    subtitle: 'Ipsum',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2016-11-20',
+    title: 'DIY Kitchen scale',
+    subtitle: '',
+    image: '/images/projects/kitchenScale.jpg',
+    date: '2020-03-01',
+    link: 'https://www.instructables.com/3D-Printed-Kitchen-Scale-Using-an-ESP8266/',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
-  },
-  {
-    title: 'Lorem',
-    subtitle: 'Ipsum',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2017-11-20',
-    desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'A 3D printed DIY kitchen scale',
   },
 ];
 
