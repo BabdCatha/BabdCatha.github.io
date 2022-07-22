@@ -78,11 +78,45 @@ const skills = [
     category: ['Microcontrollers'],
   },
   {
+    title: 'Arduino and ESP32',
+    competency: 'Capable',
+    fillRatio: 4,
+    category: ['Microcontrollers'],
+  },
+  {
     title: '8051 assembly',
     competency: 'Beginner',
     fillRatio: 3,
     category: ['Programming languages', 'Microcontrollers'],
   },
+
+  // Hardware
+
+  {
+    title: 'VHDL',
+    competency: 'Beginner',
+    fillRatio: 3,
+    category: ['Hardware'],
+  },
+  {
+    title: 'Analog electronics',
+    competency: 'Capable',
+    fillRatio: 3,
+    category: ['Hardware'],
+  },
+  {
+    title: 'Radiofrequency communication',
+    competency: 'Beginner',
+    fillRatio: 2,
+    category: ['Hardware'],
+  },
+  {
+    title: 'RISC-V Architecture',
+    competency: 'Beginner',
+    fillRatio: 3,
+    category: ['Hardware'],
+  },
+
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be == to the

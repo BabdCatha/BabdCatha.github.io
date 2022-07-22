@@ -13,13 +13,12 @@
 		display: inline-flex;
 
 		a {
-				padding: 0 .5em;
-				margin: 0;
+			padding: 0 .5em;
+			margin: 0;
 		}
 	}
 
 	.education {
-
 		.title {
 			text-align: center;
 			margin-bottom: 2em;
@@ -37,13 +36,35 @@
 		}
 	}
 
+	.achievement {
+		.title {
+			text-align: center;
+		}
+		.achievement {
+			margin: 0;
+			padding: 0;
+			li{
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+
 	.jobs-container {
 		.points {
 			li {
 				margin: 0;
 				padding: 0;
-					font-size: .9em;
+				font-size: .9em;
 			}
+		}
+	}
+
+	.achievements-container {
+		li{
+			margin: 0;
+			padding: 0;
+			font-size: .9em;
 		}
 	}
 
