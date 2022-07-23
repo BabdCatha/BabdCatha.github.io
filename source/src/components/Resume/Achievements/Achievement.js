@@ -2,9 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Achievement = ({ data }) => (
-  <article className="achievements-container">
-    <ul><li>{data.desc} <a href={data.linkAddress}>{data.linkText}</a></li></ul>
-  </article>
+  <li key={data}>{data.desc} <a href={data.linkAddress}>{data.linkText}</a></li>
 );
 
 Achievement.propTypes = {
