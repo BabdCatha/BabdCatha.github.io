@@ -9,7 +9,7 @@ const skills = [
     title: 'Javascript',
     competency: 'Beginner',
     fillRatio: 2,
-    category: ['Web Development', 'Programming languages'],
+    category: ['Programming languages'],
   },
   {
     title: 'C/C++',

@@ -9,13 +9,15 @@ const Achievements = ({ data }) => (
     <div className="title">
       <h3>Achievements</h3>
     </div>
-    <ul className="points">
-      {data.map((achievement) => (
-        <Achievement
-          data={achievement}
-        />
-      ))}
-    </ul>
+    <article className="jobs-container">
+      <ul className="points">
+        {data.map((achievement) => (
+          <Achievement
+            data={achievement}
+          />
+        ))}
+      </ul>
+    </article>
   </div>
 );
 

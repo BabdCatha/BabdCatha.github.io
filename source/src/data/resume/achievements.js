@@ -6,9 +6,9 @@ const achievements = [
 
   },
   {
-    desc: 'Finished 1st at an electronics school contest',
-    linkText: '',
-    linkAddress: '',
+    desc: 'Finished 1st at an ',
+    linkText: 'electronics school contest',
+    linkAddress: 'https://youtu.be/9F7YG1VSp4Q?t=1620',
 
   },
 ];
