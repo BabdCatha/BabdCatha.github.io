@@ -20,6 +20,17 @@ const positions = [
       'Used a Raspberry Pi Zero and an Xbox controller to create an easy way to control the drone',
     ],
   },
+  {
+    company: 'Saint-Étienne School of Mines - Flexible electronics laboratory',
+    position: 'Industrial project',
+    link: 'https://www.mines-stetienne.fr/en/research/centres-and-departments/flexible-electronics-department-fel/',
+    daterange: 'March 2022 - June 2022',
+    points: [
+      'Worked on creating a prototype for a connected weareable ECG monitor',
+      'As a team of two students, we created a rigid proof of concept for this device using an STM32WB55 microcontroller',
+      'I mainly worked on the code and the component\'s selection, and managed to get the average power consumption of the whole device from 10 mW down to 140 µW',
+    ],
+  },
 ];
 
 export default positions;

@@ -28,6 +28,7 @@ Courses.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
     link: PropTypes.string,
+    category: PropTypes.arrayOf(PropTypes.string),
   })),
 };
 

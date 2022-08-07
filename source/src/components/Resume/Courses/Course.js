@@ -14,6 +14,7 @@ Course.propTypes = {
   data: PropTypes.shape({
     link: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    category: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
   last: PropTypes.bool,
 };
