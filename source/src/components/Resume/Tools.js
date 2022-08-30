@@ -1,30 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Course from './Courses/Course';
+import Tool from './Tools/Tools';
 
-const getRows = (courses) => courses.sort((a, b) => a.title.localeCompare(b.title))
-  .map((course, idx) => (
-    <Course
-      data={course}
-      key={course.title}
-      last={idx === courses.length - 1}
+const getRows = (tools) => tools.sort((a, b) => a.title.localeCompare(b.title))
+  .map((tool, idx) => (
+    <Tool
+      data={tool}
+      key={tool.title}
+      last={idx === tools.length - 1}
     />
   ));
 
-const Courses = ({ data }) => (
-  <div className="courses">
+const Tools = ({ data }) => (
+  <div className="tools">
     <div className="link-to" id="tools" />
     <div className="title">
       <h3>Tools known</h3>
     </div>
-    <ul className="course-list">
+    <ul className="tool-list">
       {getRows(data)}
     </ul>
   </div>
 );
 
-Courses.propTypes = {
+Tools.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
     link: PropTypes.string,
@@ -32,8 +32,8 @@ Courses.propTypes = {
   })),
 };
 
-Courses.defaultProps = {
+Tools.defaultProps = {
   data: [],
 };
 
-export default Courses;
+export default Tools;

@@ -70,12 +70,12 @@
 		}
 	}
 
-	.courses {
+	.tools {
 		padding-top: 1.6em;
 		.title {
 			text-align: center;
 		}
-		.course-list {
+		.tool-list {
 			text-align: center;
 
 			h4 {
@@ -124,10 +124,10 @@
 	}
 }
 
-.courses .course-number {
+.tools .tool-number {
 	display: inline;
 }
-.courses .course-name {
+.tools .tool-name {
 	display: inline;
 	font-family: "Raleway", Helvetica, sans-serif;
 	font-size: 0.7em;
@@ -138,20 +138,20 @@
   text-transform: uppercase;
 }
 
-.courses ul li{
+.tools ul li{
   display: inline;
 }
 
-.course-dot {
+.tool-dot {
 	display: inline;
 	// display: none;
 }
 
 @include breakpoint(small) {
-	.course-dot {
+	.tool-dot {
 		display: none;
 	}
-	.course-container a{
+	.tool-container a{
 		display: block;
 	}
 }
