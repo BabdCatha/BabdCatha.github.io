@@ -10,7 +10,7 @@ import Skills from '../components/Resume/Skills';
 import Tools from '../components/Resume/Tools';
 import References from '../components/Resume/References';
 
-import tools from '../data/resume/tools';
+import { tools, toolCategories } from '../data/resume/tools';
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
 import achievements from '../data/resume/achievements';
@@ -47,7 +47,7 @@ const Resume = () => (
       <Experience data={positions} />
       <Achievements data={achievements} />
       <Skills skills={skills} categories={categories} />
-      <Tools data={tools} />
+      <Tools tools={tools} categories={toolCategories} />
       <References />
 
     </article>

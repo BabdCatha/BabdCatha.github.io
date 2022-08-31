@@ -16,4 +16,12 @@ const tools = [
   },
 ];
 
-export default tools;
+const toolCategories = [
+  ...new Set(tools.reduce((acc, { category }) => acc.concat(category), [])),
+]
+  .sort()
+  .map((category) => ({
+    name: category,
+  }));
+
+export { toolCategories, tools };
