@@ -10,8 +10,87 @@ const tools = [
     category: ['Hardware design'],
   },
   {
+    title: 'Cadence Virtuoso',
+    link: 'https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-design/virtuoso-analog-design-environment.html',
+    category: ['Hardware design'],
+  },
+  {
+    title: 'EasyEDA',
+    link: 'https://easyeda.com/',
+    category: ['Hardware design'],
+  },
+  {
+    title: 'KiCAD',
+    link: 'https://www.kicad.org/',
+    category: ['Hardware design'],
+  },
+
+  {
+    title: 'SimSmith',
+    link: 'http://www.ae6ty.com/smith_charts.html',
+    category: ['RF design'],
+  },
+  {
+    title: 'MiniVNA Tiny',
+    link: 'https://www.wimo.com/en/minivna-tiny',
+    category: ['RF design'],
+  },
+  {
+    title: 'MMANA-GAL',
+    link: 'http://gal-ana.de/basicmm/en/',
+    category: ['RF design'],
+  },
+
+  {
+    title: 'Fusion 360',
+    link: 'https://www.autodesk.com/products/fusion-360/personal',
+    category: ['3D Design'],
+  },
+  {
+    title: 'MeshMixer',
+    link: 'https://www.meshmixer.com/',
+    category: ['3D Design'],
+  },
+  {
+    title: 'Cura',
+    link: 'https://ultimaker.com/fr/software/ultimaker-cura',
+    category: ['3D Design'],
+  },
+
+  {
+    title: 'STM32CubeIDE',
+    link: 'https://www.st.com/en/development-tools/stm32cubeide.html',
+    category: ['Microcontrollers'],
+  },
+  {
+    title: 'ARM Keil',
+    link: 'https://www.keil.com/',
+    category: ['Microcontrollers'],
+  },
+  {
+    title: 'MPLabX IDE',
+    link: 'https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide',
+    category: ['Microcontrollers'],
+  },
+
+  {
     title: 'Excel',
     link: 'https://www.microsoft.com/fr-fr/microsoft-365/excel',
+    category: ['Bureautics'],
+  },
+  {
+    title: 'Word',
+    link: 'https://www.microsoft.com/fr-fr/microsoft-365/word',
+    category: ['Bureautics'],
+  },
+  {
+    title: 'PowerPoint',
+    link: 'https://www.microsoft.com/fr-fr/microsoft-365/powerpoint',
+    category: ['Bureautics'],
+  },
+  {
+    title: 'OverLeaf',
+    link: 'https://fr.overleaf.com/',
     category: ['Bureautics'],
   },
 ];
