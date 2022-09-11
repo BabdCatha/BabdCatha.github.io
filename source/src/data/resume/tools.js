@@ -60,17 +60,23 @@ const tools = [
   {
     title: 'STM32CubeIDE',
     link: 'https://www.st.com/en/development-tools/stm32cubeide.html',
-    category: ['Microcontrollers'],
+    category: ['Embedded'],
   },
   {
     title: 'ARM Keil',
     link: 'https://www.keil.com/',
-    category: ['Microcontrollers'],
+    category: ['Embedded'],
   },
   {
     title: 'MPLabX IDE',
     link: 'https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide',
-    category: ['Microcontrollers'],
+    category: ['Embedded'],
+  },
+
+  {
+    title: 'Git',
+    link: 'https://git-scm.com/',
+    category: ['Teamwork'],
   },
 
   {
