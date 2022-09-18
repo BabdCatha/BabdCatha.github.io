@@ -7,6 +7,7 @@ My name is Cyril THOMAS. I am currently pursuing an engineering degree at the Sa
 
 - My first introduction to video games was when we found a PS1 laying on the street, we figured it was worth bringing back home, and it was still perfectly functionnal. One of the first games I got on it was Air Combat, which sparked my love for airplanes.
 - My first computer was a [Dell Inspiron 5100](https://www.itechguides.com/product-specs/dell-inspiron-15-5100-specs/), that we bought used in 2010.
+- I started participating in the French National Robotics Cup when I entered university. So far I've participated twice with my school's team.
 
 # I like
 

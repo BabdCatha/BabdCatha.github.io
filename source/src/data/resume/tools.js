@@ -15,6 +15,16 @@ const tools = [
     category: ['Hardware design'],
   },
   {
+    title: 'Xilinx Vivado',
+    link: 'https://www.xilinx.com/products/design-tools/vivado.html',
+    category: ['Hardware design'],
+  },
+  {
+    title: 'Synopsys Design Vision',
+    link: 'https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test/dc-ultra.html',
+    category: ['Hardware design'],
+  },
+  {
     title: 'EasyEDA',
     link: 'https://easyeda.com/',
     category: ['Hardware design'],
@@ -22,6 +32,11 @@ const tools = [
   {
     title: 'KiCAD',
     link: 'https://www.kicad.org/',
+    category: ['Hardware design'],
+  },
+  {
+    title: 'LTSpice XVII',
+    link: 'https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html',
     category: ['Hardware design'],
   },
 
