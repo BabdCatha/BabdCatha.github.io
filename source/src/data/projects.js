@@ -10,6 +10,15 @@ const data = [
       'Hands free cooking assistant.',
   },
   {
+    title: 'Christmas Tree',
+    subtitle: '',
+    image: '/images/projects/christmasTree.jpg',
+    date: '2021-11-01',
+    link: 'https://www.instructables.com/DIY-PCB-Christmas-Tree/',
+    desc:
+      'A DIY small PCB Christmas tree',
+  },
+  {
     title: 'DIY Kitchen scale',
     subtitle: '',
     image: '/images/projects/kitchenScale.jpg',
