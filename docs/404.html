@@ -31,7 +31,7 @@
       if(window.location.pathname in pagesList){
 
         l.replace(
-          l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/?/' + window.location.pathname
+          l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/?' + window.location.pathname
         );
 
       }else{
