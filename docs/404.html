@@ -28,7 +28,7 @@
 
       var l = window.location;
 
-      if(window.location.pathname in pagesList){
+      if(pagesList.includes(window.location.pathname)){
 
         l.replace(
           l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/?' + window.location.pathname
