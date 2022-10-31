@@ -111,6 +111,12 @@ const skills = [
     category: ['Hardware'],
   },
   {
+    title: 'Verification using SystemVerilog',
+    competency: 'Beginner',
+    fillRatio: 2,
+    category: ['Hardware'],
+  },
+  {
     title: 'RISC-V Architecture',
     competency: 'Beginner',
     fillRatio: 3,
