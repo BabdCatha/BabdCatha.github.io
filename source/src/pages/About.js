@@ -22,7 +22,7 @@ const About = () => (
     <article className="post markdown" id="about">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/about">About Me</Link></h2>
+          <h2 data-testid="heading"><Link to="/about">{window.i18n('aboutMe')}</Link></h2>
           <p>(in about {count} words)</p>
         </div>
       </header>

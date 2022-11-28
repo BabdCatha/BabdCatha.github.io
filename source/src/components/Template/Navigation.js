@@ -16,7 +16,7 @@ const Navigation = () => (
       <ul>
         {routes.filter((l) => !l.index).map((l) => (
           <li key={l.label}>
-            <Link to={l.path}>{l.label}</Link>
+            <Link to={l.path}>{window.i18n(l.label)}</Link>
           </li>
         ))}
       </ul>
@@ -24,8 +24,8 @@ const Navigation = () => (
     <div className="dropdown">
       <li className="language">Language</li>
       <div className="dropdown-content">
-        <a href="test">Link 1</a>
-        <a href="test">Link 2</a>
+        <button type="button" onClick={() => window.changeLanguage('en')}>English</button>
+        <button type="button" onClick={() => window.changeLanguage('fr')}>Français</button>
       </div>
     </div>
 

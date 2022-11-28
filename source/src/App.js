@@ -1,7 +1,9 @@
+/* eslint-disable react/prefer-stateless-function */
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
+import './services/localizationService';
 
 const { PUBLIC_URL } = process.env;
 
@@ -17,21 +19,26 @@ const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 const Error = lazy(() => import('./pages/Error'));
 
-const App = () => (
-  <BrowserRouter basename={PUBLIC_URL}>
-    <Suspense fallback={<Main />}>
-      <Routes>
-        <Route exact path="/" element={<Index />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/stats" element={<Stats />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/error" element={<Error />} status={404} />
-        <Route element={<NotFound />} status={404} />
-      </Routes>
-    </Suspense>
-  </BrowserRouter>
-);
+class App extends React.Component {
+  render() {
+    window.mainComponent = this;
+    return (
+      <BrowserRouter basename={PUBLIC_URL}>
+        <Suspense fallback={<Main />}>
+          <Routes>
+            <Route exact path="/" element={<Index />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/stats" element={<Stats />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/error" element={<Error />} status={404} />
+            <Route element={<NotFound />} status={404} />
+          </Routes>
+        </Suspense>
+      </BrowserRouter>
+    );
+  }
+}
 
 export default App;
