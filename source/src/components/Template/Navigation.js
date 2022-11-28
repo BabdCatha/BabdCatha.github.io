@@ -21,7 +21,16 @@ const Navigation = () => (
         ))}
       </ul>
     </nav>
+    <div className="dropdown">
+      <li className="language">Language</li>
+      <div className="dropdown-content">
+        <a href="test">Link 1</a>
+        <a href="test">Link 2</a>
+      </div>
+    </div>
+
     <Hamburger />
+
   </header>
 );
 
