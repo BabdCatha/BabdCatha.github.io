@@ -1,7 +1,7 @@
 const positions = [
   {
-    company: 'Unbabel',
-    position: 'english_to_french_translator',
+    company: 'unbabel_company',
+    position: 'unbabel_position',
     link: 'https://unbabel.com/',
     daterange: '2017 - Present',
     points: [
@@ -21,7 +21,7 @@ const positions = [
     ],
   },
   {
-    company: 'Saint-Étienne School of Mines - Flexible electronics laboratory',
+    company: 'PI_company',
     position: 'PI_position',
     link: 'https://www.mines-stetienne.fr/en/research/centres-and-departments/flexible-electronics-department-fel/',
     daterange: 'March 2022 - June 2022',

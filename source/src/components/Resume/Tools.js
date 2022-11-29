@@ -63,7 +63,7 @@ class Tools extends Component {
       <div className="tools">
         <div className="link-to" id="tools" />
         <div className="title">
-          <h3>Tools known</h3>
+          <h3>{window.i18n('tools')}</h3>
           <p>Here is a list of some of the tools I already have experience with.
           </p>
         </div>
