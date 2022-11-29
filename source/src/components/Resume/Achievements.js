@@ -7,7 +7,7 @@ const Achievements = ({ data }) => (
   <div className="achievement">
     <div className="link-to" id="achievements" />
     <div className="title">
-      <h3>Achievements</h3>
+      <h3>{window.i18n('achievements')}</h3>
     </div>
     <article className="jobs-container">
       <ul className="points">

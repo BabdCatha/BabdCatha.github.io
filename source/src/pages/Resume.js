@@ -17,12 +17,12 @@ import achievements from '../data/resume/achievements';
 import { skills, categories } from '../data/resume/skills';
 
 const sections = [
-  'Education',
-  'Experience',
-  'Achievements',
-  'Skills',
-  'Tools',
-  'References',
+  'education',
+  'experience',
+  'achievements',
+  'skills',
+  'tools',
+  'references',
 ];
 
 const Resume = () => (
@@ -33,11 +33,11 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
+          <h2 data-testid="heading"><Link to=".">{window.i18n('resume')}</Link></h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+                <a href={`#${sec.toLowerCase()}`}>{window.i18n(sec)}</a>
               </h4>))}
           </div>
 

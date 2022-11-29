@@ -26,6 +26,7 @@ const Navigation = () => (
       <div className="dropdown-content">
         <button type="button" onClick={() => window.changeLanguage('en')}>English</button>
         <button type="button" onClick={() => window.changeLanguage('fr')}>Français</button>
+        <button type="button" onClick={() => window.changeLanguage('zh')}>中文</button>
       </div>
     </div>
 
