@@ -13,6 +13,7 @@ const Achievements = ({ data }) => (
       <ul className="points">
         {data.map((achievement) => (
           <Achievement
+            key={achievement.desc}
             data={achievement}
           />
         ))}

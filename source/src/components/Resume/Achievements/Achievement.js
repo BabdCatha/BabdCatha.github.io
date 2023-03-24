@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Achievement = ({ data }) => (
-  <li key={data}>{data.desc} <a href={data.linkAddress}>{data.linkText}</a></li>
+  <li key={data.desc}>{data.desc} <a href={data.linkAddress}>{data.linkText}</a></li>
 );
 
 Achievement.propTypes = {

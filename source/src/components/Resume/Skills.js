@@ -16,6 +16,7 @@ class Skills extends Component {
   constructor(props) {
     super(props);
     this.state = handleProps({ categories: props.categories, skills: props.skills });
+    this.state.buttons.Linguistics = true;
   }
 
   getRows() {
@@ -89,7 +90,7 @@ class Skills extends Component {
 Skills.propTypes = {
   skills: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
-    competency: PropTypes.number,
+    competency: PropTypes.string,
     category: PropTypes.arrayOf(PropTypes.string),
   })),
   categories: PropTypes.arrayOf(PropTypes.shape({

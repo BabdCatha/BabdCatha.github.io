@@ -16,6 +16,7 @@ class Tools extends Component {
   constructor(props) {
     super(props);
     this.state = handleProps({ categories: props.categories, tools: props.tools });
+    this.state.buttons.Bureautics = true;
   }
 
   getRows() {
