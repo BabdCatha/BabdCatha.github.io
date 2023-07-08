@@ -31,6 +31,16 @@ const positions = [
       'PI_point2',
     ],
   },
+  {
+    company: 'Apple_company',
+    position: 'Apple_position',
+    link: 'https://www.apple.com/',
+    daterange: 'April 2023 - October 2023',
+    points: [
+      'Apple_point0',
+      'Apple_point1',
+    ],
+  },
 ];
 
 export default positions;
