@@ -25,6 +25,7 @@ const Index = () => (
         or <Link to="/contact">contact</Link> me.
       </p>
       <p> Source available <a href="https://github.com/BabdCatha/BabdCatha.github.io">here</a>.</p>
+      <p>You can also visit my blog at <a href="https://babdcatha.net/">babdcatha.net</a></p>
     </article>
   </Main>
 );

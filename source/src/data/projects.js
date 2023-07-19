@@ -36,6 +36,14 @@ const data = [
     desc:
       'A DIY IoT Geiger counter',
   },
+  {
+    title: 'Babdcatha.net',
+    subtitle: '',
+    image: '/images/projects/Blog.png',
+    date: '2023-01-30',
+    desc:
+      'My blog about cybersecurity',
+  },
 ];
 
 export default data;
