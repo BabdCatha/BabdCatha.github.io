@@ -39,4 +39,18 @@ export default {
   Apple_position: 'PMU AMS-DV Verification Intern',
   Apple_point0: 'Worked on the verification of the next generation of Apple\'s PMU chips',
   Apple_point1: 'Created new VAMS components to speed simulations, and did measurements on physical chips to test experimental features',
+
+  Some_stats_about_me: 'Some stats about me',
+  Some_stats_about_the_website: 'Some stats about the website',
+  Current_age: 'Current age',
+  Countries_visited: 'Countries visited',
+  Current_city: 'Current city',
+  Github_stars: 'Stars this repository has on github',
+  Watchers: 'Number of people watching this repository',
+  Forks: 'Number of forks',
+  Spoons: 'Number of spoons',
+  Linter_warnings: 'Number of linter warnings',
+  Open_issues: 'Number of open issues on Github',
+  Last_update: 'Last updated on',
+  Javascript_lines: 'Lines of Javascript powering this website',
 };

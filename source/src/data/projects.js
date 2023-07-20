@@ -41,6 +41,7 @@ const data = [
     subtitle: '',
     image: '/images/projects/Blog.png',
     date: '2023-01-30',
+    link: 'https://babdcatha.net',
     desc:
       'My blog about cybersecurity',
   },

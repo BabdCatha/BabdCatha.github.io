@@ -21,20 +21,20 @@ const Age = () => {
 const data = [
   {
     key: 'age',
-    label: 'Current age',
+    label: 'Current_age',
     value: <Age />,
   },
   {
     key: 'countries',
-    label: 'Countries visited',
+    label: 'Countries_visited',
     value: 5,
     link:
       'https://www.google.com/maps/d/embed?mid=1jHzCFSZgyKPmttXgSYqQjiudMdbZmPU&ehbc=2E312F',
   },
   {
     key: 'location',
-    label: 'Current city',
-    value: 'Gardanne, Bouches-du-Rhône, France',
+    label: 'Current_city',
+    value: 'Stuttgart, Baden-Württemberg, Germany',
   },
 ];
 

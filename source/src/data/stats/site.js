@@ -6,35 +6,35 @@ import dayjs from 'dayjs';
  */
 const data = [
   {
-    label: 'Stars this repository has on github',
+    label: 'Github_stars',
     key: 'stargazers_count',
     link: 'https://github.com/BabdCatha/BabdCatha.github.io/stargazers',
   },
   {
-    label: 'Number of people watching this repository',
+    label: 'Watchers',
     key: 'subscribers_count',
     link: 'https://github.com/BabdCatha/BabdCatha.github.io/stargazers',
   },
   {
-    label: 'Number of forks',
+    label: 'Forks',
     key: 'forks',
     link: 'https://github.com/BabdCatha/BabdCatha.github.io/network',
   },
   {
-    label: 'Number of spoons',
+    label: 'Spoons',
     value: '0',
   },
   {
-    label: 'Number of linter warnings',
+    label: 'Linter_warnings',
     value: '0', // enforced via github workflow
   },
   {
-    label: 'Open github issues',
+    label: 'Open_issues',
     key: 'open_issues_count',
     link: 'https://github.com/BabdCatha/BabdCatha.github.io/issues',
   },
   {
-    label: 'Last updated at',
+    label: 'Last_update',
     key: 'pushed_at',
     link: 'https://github.com/BabdCatha/BabdCatha.github.io/commits',
     format: (x) => dayjs(x).format('MMMM DD, YYYY'),
@@ -43,8 +43,8 @@ const data = [
     // TODO update this with a pre-commit hook
     /* find . | grep ".js" | grep -vE ".min.js|node_modules|.git|.json" |
     xargs -I file cat file | wc -l */
-    label: 'Lines of Javascript powering this website',
-    value: '1833',
+    label: 'Javascript_lines',
+    value: '2042',
     link: 'https://github.com/BabdCatha/BabdCatha.github.io/graphs/contributors',
   },
 ];

@@ -10,7 +10,7 @@ const Table = ({ data }) => (
         <TableRow
           format={pair.format}
           key={pair.label}
-          label={pair.label}
+          label={window.i18n(pair.label)}
           link={pair.link}
           value={pair.value}
         />
