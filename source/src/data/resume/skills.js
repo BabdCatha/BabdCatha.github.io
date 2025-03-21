@@ -89,6 +89,12 @@ const skills = [
     fillRatio: 3,
     category: ['Programming languages', 'Microcontrollers'],
   },
+  {
+    title: 'ATtiny85',
+    competency: 'Beginner',
+    fillRatio: 3,
+    category: ['Microcontrollers'],
+  },
 
   // Hardware
 

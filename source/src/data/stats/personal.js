@@ -34,7 +34,7 @@ const data = [
   {
     key: 'location',
     label: 'Current_city',
-    value: 'Stuttgart, Baden-Württemberg, Germany',
+    value: 'Paris, France',
   },
 ];
 

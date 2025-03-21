@@ -114,6 +114,16 @@ const tools = [
     link: 'https://fr.overleaf.com/',
     category: ['Bureautics'],
   },
+  {
+    title: 'Nmap',
+    link: 'https://nmap.org/',
+    category: ['Pentest'],
+  },
+  {
+    title: 'Burp Suite',
+    link: 'https://portswigger.net/burp',
+    category: ['Pentest'],
+  },
 ];
 
 const toolCategories = [
